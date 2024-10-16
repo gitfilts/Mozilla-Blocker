@@ -13,7 +13,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 16 October 2024
-! Version: 0.18
+! Version: 0.19
 ! Syntax: Adblock
 ! Number of entries: 89
 !
@@ -114,7 +114,7 @@
 ||mozilla.ai^
 ||mozilla.com^
 ||mozilla.net^
-||mozilla.org^$denyallow=addons.mozilla.org
+||mozilla.org^$denyallow=addons.mozilla.org|~services.addons.mozilla.org
 ||mozorg.moz.works^
 ||thunderbird.net^
 ||anonymco.com^
