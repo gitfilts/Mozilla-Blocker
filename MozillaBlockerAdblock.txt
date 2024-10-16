@@ -1,10 +1,11 @@
-! Title: Mozilla Blocker Adblock Dns Blocklist(Need Testing)
+! Title: Mozilla Blocker Adblock
 ! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
 !              Mozilla accounts are blocked but mozilla download cdn and archive is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
 !              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
 !              Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
-!              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac. 
+!              Use only in a systemwide Adblocker like Zen which is available for pc and Adguard which is available for Android, iOS, Windows, and Mac. 
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
+!
 !
 ! Host version of Mozilla Blocker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerHost.txt
 !
