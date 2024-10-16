@@ -1,12 +1,19 @@
 # Mozilla-Blocker
 ### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 
-# You Must Use the filters in a systemwide system such as Adguard for Windows/Android, Host Bloking Methods and DNS Blocking Methods
-## Mozilla blocker won't block mozilla from spying on you if you use the filters inside Mozilla products like firefox and thunderbird in adblockers like ublock origin, adguard browser extension and others.
+# Userful only in Systemwide Ad-blockers(most effective), DNS Sinkholes and hosts files.
 
 # Direct Links to Mozilla Blocker filters
-### (Recommended)For Adguard and Adguard Home for systemwide adblocking and Dns blocking - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerForAdguard.txt
+### Mozilla blocker Adblock for Zen Blocker, Adguard and Adguard Home - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerAdblock.txt
+
+#### Host file for Widnows HOst and Android Adaway - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerHost.txt
+
+## Recommened Systemwide Adblocker For windows, Linux and mac - Zen Privacy Guard (https://github.com/anfragment/zen)
+
+## This filter is also useful in Adguard for windows and android.
+### But Adguard for windows and android doesn't detect https google trackers on mozilla websites like Mozilla Add-ons, Just like how uBlock Origin can't either due to some kind of policy forced onto extension makers by Mozilla. 
+### So I don't really recommend depending on Adguard systemwide adblocker for firefox browser users, where Adguard is fantastic for other browser users.
 
 
-Mozilla blocker with adblock syntex for Adblockers and Dns blocker like pi-hole - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/AdblockDnsBlocklist.txt
+
 
