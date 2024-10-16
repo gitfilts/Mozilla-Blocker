@@ -1,10 +1,13 @@
 ! Title: Mozilla Blocker Adblock Dns Blocklist(Need Testing)
 ! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
-!              Mozilla accounts are blocked but mozilla download cdn and archive is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
-!              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
-!              Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
-!              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac. 
+!              Mozilla accounts are blocked, mozilla download cdn and archive is blocked. Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
+!              Only addons urls are not blocked so that extensions can be installed from Firefox Add-ons.
+!              Use in a systemwide Adblocker like Zen systemwide adblocker from github or Adguard which is available for Android, iOS, Windows, and Mac. 
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
+!              Zen system wide Blocker(https://github.com/anfragment/zen) can detect and block google trackers when you visit mozilla website and your browser updates add-ons on the backgruond, Adguard for windows can't. 
+!              Not Even Ublock Origin is allowed to block google trackers on mozilla sites in any firefox forked browser.
+!              This is due to Mozilla's policy forced onto extension developers. Which should tell you Mozilla's privacy stance as an organization.
+!              Among Firefox forks, only Palemoon and Basilisk can detect and block google trackers on mozilla websites.
 !
 ! Host version of Mozilla Blocker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerHost.txt
 !
@@ -13,7 +16,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 16 October 2024
-! Version: 0.19
+! Version: 0.20
 ! Syntax: Adblock
 ! Number of entries: 89
 !
@@ -25,14 +28,14 @@
 ||accounts-static.cdn.mozilla.net^
 !
 !!! Mozilla Addons
-!@@||addons.mozilla.org^
-!@@||addons.thunderbird.net^
+@@||addons.mozilla.org^
+@@||addons.thunderbird.net^
 ||services.addons.mozilla.org^$important
 ||services.addons.thunderbird.net^$important
 !
 !!! Mozilla Downloads servers/cdn
-@@||cdn.mozilla.net^
-@@||archive.mozilla.org^
+!Blocked!@@||cdn.mozilla.net^
+!Blocked!@@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
 ||live.thunderbird.net^
