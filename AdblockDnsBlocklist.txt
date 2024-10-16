@@ -14,7 +14,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 16 October 2024
-! Version: 0.16
+! Version: 0.17
 ! Syntax: Adblock
 ! Number of entries: 89
 !
@@ -26,8 +26,8 @@
 ||accounts-static.cdn.mozilla.net^
 !
 !!! Mozilla Addons
-@@https://addons.mozilla.org/
-@@https://addons.thunderbird.net/
+@@||https://addons.mozilla.org^
+@@||https://addons.thunderbird.net^
 ||services.addons.mozilla.org^$important
 ||services.addons.thunderbird.net^$important
 !
