@@ -7,7 +7,6 @@
 # Direct Links to Mozilla Blocker filters
 ### (Recommended)For Adguard and Adguard Home for systemwide adblocking and Dns blocking - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerForAdguard.txt
 
-#### Host files that can be used in Windows hosts and Android with Adaway - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerHost.txt
 
 Mozilla blocker with adblock syntex for Adblockers and Dns blocker like pi-hole - https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/AdblockDnsBlocklist.txt
 
