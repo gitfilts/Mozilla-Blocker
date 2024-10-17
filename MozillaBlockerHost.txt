@@ -7,11 +7,22 @@
 #
 # Homepage: https://github.com/gitfilts/Mozilla-Blocker
 # Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerHost.txt
-# Last modified: 07 Oct 2024
+# Last modified: 18 Oct 2024
 # Number of entries: 212
 #
 # Adguard/Adgaurd Home version Of Mozilla Blocker for systemwide ads and dns blocking - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerForAdguard.txt
 #
+#
+### External trackers used on mozilla sites...
+0.0.0.0 google-analytics.com
+0.0.0.0 googletagmanager.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 omappapi.com
+0.0.0.0 braze.com
+0.0.0.0 sentry.io
+0.0.0.0 matomo.cloud
+0.0.0.0 pubmine.com
 #
 ### Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 #0.0.0.0 addons.mozilla.org
@@ -23,6 +34,7 @@
 0.0.0.0 accounts.firefox.com
 0.0.0.0 accounts-static.cdn.mozilla.net
 0.0.0.0 www.accounts.firefox.com
+0.0.0.0 moz.works
 0.0.0.0 mozorg.moz.works
 0.0.0.0 www.mozorg.moz.works
 0.0.0.0 services.addons.mozilla.org
@@ -36,11 +48,14 @@
 0.0.0.0 mozilla.ai
 0.0.0.0 mozilla.org
 0.0.0.0 mozilla.net
+0.0.0.0 mozilla.vc
 0.0.0.0 mozaws.net
 0.0.0.0 mozgcp.net
 0.0.0.0 relay.firefox.com
 0.0.0.0 thunderbird.net
 0.0.0.0 fakespot.com
+0.0.0.0 fakespot.io
+0.0.0.0 i.fakspot.io
 0.0.0.0 www.firefox.com
 0.0.0.0 www.getpocket.com
 0.0.0.0 www.labs.mozilla.org
@@ -49,6 +64,7 @@
 0.0.0.0 www.mozilla.com
 0.0.0.0 www.mozilla.org
 0.0.0.0 www.mozilla.net
+0.0.0.0 www.mozilla.vc
 0.0.0.0 www.mozaws.net
 0.0.0.0 www.mozgcp.net
 0.0.0.0 www.relay.firefox.com
@@ -95,6 +111,8 @@
 0.0.0.0 contile-images.services.mozilla.com
 0.0.0.0 copy.loop.services.mozilla.com
 0.0.0.0 coverage.mozilla.org
+0.0.0.0 crash-reports.mozilla.com
+0.0.0.0 crash-reports-xpsp2.mozilla.com
 0.0.0.0 crash-stats.allizom.org
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.mozilla.org
@@ -168,6 +186,7 @@
 0.0.0.0 phish-error.mozilla.com
 0.0.0.0 phish-report.mozilla.com
 0.0.0.0 planet.mozilla.org
+0.0.0.0 pocket-image-cache.com
 0.0.0.0 probes.telemetry.mozilla.org
 0.0.0.0 probeinfo.telemetry.mozilla.org
 0.0.0.0 prod.balrog.prod.cloudops.mozgcp.net
@@ -175,6 +194,7 @@
 0.0.0.0 prod.detectportal.prod.cloudops.mozgcp.net
 0.0.0.0 prod.ingestion-edge.prod.dataops.mozgcp.net
 0.0.0.0 prod.remote-settings.prod.webservices.mozgcp.net
+0.0.0.0 prod.webservices.mozgcp.net
 0.0.0.0 profile.accounts.firefox.com
 0.0.0.0 public-data.telemetry.mozilla.org
 0.0.0.0 push.services.mozilla.com
@@ -230,9 +250,11 @@
 0.0.0.0 tracking.services.mozilla.com
 0.0.0.0 tracking-protection.cdn.mozilla.net
 0.0.0.0 tracking-protection-issues.herokuapp.com
+0.0.0.0 tracking-protection.cdn.mozilla.net
 0.0.0.0 tracking-protection.prod.mozaws.net
 0.0.0.0 videos-cdn.mozilla.net
 0.0.0.0 videos.mozilla.org
 0.0.0.0 webextensions.settings.services.mozilla.com
+0.0.0.0 webservices.mozgcp.net
 0.0.0.0 workflow.telemetry.mozilla.org
 0.0.0.0 www.mozillamaintenanceservice.duckdns.org
