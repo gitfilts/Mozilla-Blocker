@@ -9,7 +9,7 @@
 !              
 !              A Mozilla Trivia: Not Even Ublock Origin is allowed to detect and filter google trackers mozilla uses on their own sites like Mozilla Add-ons in any modern firefox forked browser.
 !              This is due to Mozilla's policy forced onto extension developers. Which should tell you Mozilla's privacy stance as an organization.
-!              Among Firefox forks, only unique forks like Palemoon and Basilisk can detect and block google trackers on mozilla websites. So can the rest of the browsers in existence with an adblocker which is not a modern firefox fork.
+!              Mitigations: Among Firefox forks, only unique forks like Palemoon and Basilisk can detect and block google trackers on mozilla websites. So can the rest of the browsers in existence with an adblocker which is not a modern firefox fork.
 !              Zen system wide Blocker(https://github.com/anfragment/zen) can detect and block google trackers when you visit mozilla website and your browser updates add-ons on the backgruond.
 !              Adguard for windows can't detect http google trackers and scripts on mozilla sites but can block the DNS requests which should be enough. 
 !
@@ -20,7 +20,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 18 October 2024
-! Version: 1.22
+! Version: 1.23
 ! Syntax: Adblock
 ! Number of entries: 107
 !
