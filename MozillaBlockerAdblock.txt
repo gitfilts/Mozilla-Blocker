@@ -1,6 +1,8 @@
 ! Title: Mozilla Blocker Adblock
 ! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
-!              Mozilla accounts are blocked, mozilla download cdn and archive is blocked. Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
+!              Mozilla accounts are blocked, mozilla download cdn and archive is blocked. Firefox forked browser's auto update attempts will be blocked.
+!              Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
+!              Use a package manager or download manualy to update firefox forked browsers instead of using the autoupdate feature inside the browser itself.
 !              Only addons urls are not blocked so that extensions can be installed from Firefox Add-ons.
 !              Use in a systemwide Adblocker like Zen systemwide adblocker from github or Adguard which is available for Android, iOS, Windows, and Mac. 
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
@@ -15,8 +17,8 @@
 ! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/AdblockDnsBlocklist.txt
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 16 October 2024
-! Version: 0.22
+! Last modified: 17 October 2024
+! Version: 1.0
 ! Syntax: Adblock
 ! Number of entries: 89
 !
