@@ -70,6 +70,8 @@
 0.0.0.0 www.relay.firefox.com
 0.0.0.0 www.thunderbird.net
 0.0.0.0 www.fakespot.com
+0.0.0.0 www.fakespot.io
+0.0.0.0 www.i.fakspot.io
 0.0.0.0 mozilla.cloudflare-dns.com
 #
 ### Blocking all the userless invasive mozilla trackers and services
@@ -97,6 +99,7 @@
 0.0.0.0 blocked.cdn.mozilla.net
 0.0.0.0 blocklist.addons.mozilla.org
 0.0.0.0 blocklists.settings.services.mozilla.com
+0.0.0.0 blog.mozilla.org
 0.0.0.0 bouncer-bouncer-elb.prod.mozaws.net
 0.0.0.0 broker-live.mozillamessaging.com
 0.0.0.0 cdn.mozilla.net
@@ -144,6 +147,8 @@
 0.0.0.0 firefox.settings.services.mozilla.com
 0.0.0.0 firefox-settings-attachments.cdn.mozilla.net
 0.0.0.0 firefox-android-home-recommendations.getpocket.com
+0.0.0.0 foundation.mozilla.org
+0.0.0.0 foundation.mozilla.org.cdn.cloudflare.net
 0.0.0.0 ftp.mozilla.org
 0.0.0.0 gecko.mozilla.org
 0.0.0.0 getpocket.cdn.mozilla.net
@@ -173,6 +178,7 @@
 0.0.0.0 metric.mozilla-pontoon-staging.herokuapp.com
 0.0.0.0 monitor.firefox.com
 0.0.0.0 mozamo.wpengine.com
+0.0.0.0 mozilla-vc-dev.ramotion.agency
 0.0.0.0 mozilla.dorando.at
 0.0.0.0 mozillamaintenanceservice.duckdns.org
 0.0.0.0 mozsocial.cliqz.com
@@ -258,3 +264,11 @@
 0.0.0.0 webservices.mozgcp.net
 0.0.0.0 workflow.telemetry.mozilla.org
 0.0.0.0 www.mozillamaintenanceservice.duckdns.org
+#
+###Tracker and auto update blocking from other firefox forked browsers
+## Basilisk
+0.0.0.0 aus.basilisk-browser.org
+## Floorp
+0.0.0.0 floorp-update.ablaze.one
+## Zen
+0.0.0.0 updates.zen-browser.app
