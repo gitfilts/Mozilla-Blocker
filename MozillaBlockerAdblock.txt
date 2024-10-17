@@ -4,12 +4,14 @@
 !              Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
 !              Use a package manager or download manualy to update firefox forked browsers instead of using the autoupdate feature inside the browser itself.
 !              Only addons urls are not blocked so that extensions can be installed from Firefox Add-ons.
-!              Use in a systemwide Adblocker like Zen systemwide adblocker from github or Adguard which is available for Android, iOS, Windows, and Mac. 
+!              Use with a systemwide Adblocker like Zen Privacy Guard for windows/linux and Adguard for windows/android(as DNS filter) or with a DNS Sinkhole like Adguard Home and Pi-hole.  
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
-!              Zen system wide Blocker(https://github.com/anfragment/zen) can detect and block google trackers when you visit mozilla website and your browser updates add-ons on the backgruond, Adguard for windows can't. 
-!              Not Even Ublock Origin is allowed to block google trackers on mozilla sites in any firefox forked browser.
+!              
+!              A Mozilla Trivia: Not Even Ublock Origin is allowed to detect and filter google trackers used on mozilla sites in any firefox forked browser.
 !              This is due to Mozilla's policy forced onto extension developers. Which should tell you Mozilla's privacy stance as an organization.
-!              Among Firefox forks, only Palemoon and Basilisk can detect and block google trackers on mozilla websites.
+!              Among Firefox forks, only unique forks like Palemoon and Basilisk can detect and block google trackers on mozilla websites. So can the rest of the browsers in existence with an adblocker which is not a modern firefox fork.
+!              Zen system wide Blocker(https://github.com/anfragment/zen) can detect and block google trackers when you visit mozilla website and your browser updates add-ons on the backgruond.
+!              Adguard for windows can't detect http google trackers and scripts on mozilla sites but can block the DNS requests which should be enough. 
 !
 ! Host version of Mozilla Blocker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerHost.txt
 !
@@ -17,13 +19,27 @@
 ! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerAdblock.txt
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 17 October 2024
-! Version: 1.02
+! Last modified: 18 October 2024
+! Version: 1.20
 ! Syntax: Adblock
-! Number of entries: 89
+! Number of entries: 98
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
+!
+!!! Internal and External Trackers used on all mozilla websites...
+||google-analytics.com^
+||googletagmanager.com^
+||omappapi.com^
+||braze.com^
+||sentry.io^
+||matomo.cloud^
+||pubmine.com^
+||cookielaw.org^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+||typekit.net^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+||fundraiseup.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+||google.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+||stripe.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
 !
 !!! Mozilla Accounts
 ||accounts.firefox.com^
@@ -36,8 +52,8 @@
 ||services.addons.thunderbird.net^$important
 !
 !!! Mozilla Downloads servers/cdn
-!Blocked!@@||cdn.mozilla.net^
-!Blocked!@@||archive.mozilla.org^
+||cdn.mozilla.net^
+||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
 ||live.thunderbird.net^
@@ -73,6 +89,7 @@
 ||live.mozillamessaging.com^
 ||location.services.mozilla.com^
 ||metric.mozilla-pontoon-staging.herokuapp.com^
+||monitor.mozilla.org^
 ||mozamo.wpengine.com^
 ||mozilla.ai^
 ||mozilla.auth0.com^
@@ -87,7 +104,10 @@
 ||normandy-cdn.services.mozilla.com^
 ||normandy-cloudfront.cdn.mozilla.net^
 ||normandy-devtools.services.mozilla.com^
+||pocket-image-cache.com^
+||prod.webservices.mozgcp.net^
 ||push.services.mozilla.com^
+||relay.firefox.com^
 ||settings.services.mozilla.com^
 ||shavar.services.mozilla.com^
 ||snippets.allizom.org^
@@ -109,7 +129,9 @@
 ||topsites.services.mozilla.com^
 ||tracking.firefox.com.cn^
 ||tracking.services.mozilla.com^
+||tracking-protection.cdn.mozilla.net^
 ||tracking-protection-issues.herokuapp.com^
+||webservices.mozgcp.net^
 !
 !!!!!! Mozilla Product and Services Direct Urls !!!!!!
 ||firefox.com^
@@ -120,10 +142,13 @@
 ||mozilla.com^
 ||mozilla.net^
 ||mozilla.org^
+||mozilla.vc^
+||moz.works^
 ||mozorg.moz.works^
 ||thunderbird.net^
 ||anonymco.com^
 ||fakespot.com^
+||fakespot.io^
 !
 !!!!!! Tracker and auto update blocking from other firefox forked browsers
 !! Basilisk Browser
