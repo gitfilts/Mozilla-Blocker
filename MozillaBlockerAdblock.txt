@@ -20,7 +20,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 18 October 2024
-! Version: 1.24
+! Version: 1.25
 ! Syntax: Adblock
 ! Number of entries: 115
 !
@@ -74,7 +74,7 @@
 ||contile-images.services.mozilla.com^
 ||classify-client.services.mozilla.com^
 ||content-signature-2.cdn.mozilla.net
-||content-signature-*.cdn.mozilla.net
+||content-signature*.cdn.mozilla.net
 ||contile-images.services.mozilla.com^
 ||crash-reports.mozilla.com^
 ||crash-reports-xpsp2.mozilla.com^
