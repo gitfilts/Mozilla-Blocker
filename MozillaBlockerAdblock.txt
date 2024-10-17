@@ -18,7 +18,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 17 October 2024
-! Version: 1.0
+! Version: 1.01
 ! Syntax: Adblock
 ! Number of entries: 89
 !
@@ -127,11 +127,11 @@
 !
 !!!!!! Tracker and auto update blocking from other firefox forked browsers
 !! Basilisk Browser
-||aus.basilisk-browser.org^$important
+||aus.basilisk-browser.org^
 !
 !! Floorp Browser
-||floorp-update.ablaze.one^$important
+||floorp-update.ablaze.one^
 !
 !! Zen Browser
-||updates.zen-browser.app^$important
+||updates.zen-browser.app^
 !
