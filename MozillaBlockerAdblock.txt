@@ -20,9 +20,9 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 18 October 2024
-! Version: 1.20
+! Version: 1.21
 ! Syntax: Adblock
-! Number of entries: 98
+! Number of entries: 107
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
