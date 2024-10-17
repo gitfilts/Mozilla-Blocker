@@ -14,11 +14,11 @@
 ! Host version of Mozilla Blocker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerHost.txt
 !
 ! Homepage: https://github.com/gitfilts/Mozilla-Blocker
-! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/AdblockDnsBlocklist.txt
+! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerAdblock.txt
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 17 October 2024
-! Version: 1.01
+! Version: 1.02
 ! Syntax: Adblock
 ! Number of entries: 89
 !
