@@ -20,7 +20,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 18 October 2024
-! Version: 1.25
+! Version: 1.26
 ! Syntax: Adblock
 ! Number of entries: 115
 !
@@ -166,5 +166,5 @@
 ||floorp-update.ablaze.one^
 !
 !! Zen Browser
-||updates.zen-browser.app^
+!Not Blocked!||updates.zen-browser.app^
 !
