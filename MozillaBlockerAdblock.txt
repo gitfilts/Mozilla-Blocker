@@ -19,8 +19,8 @@
 ! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerAdblock.txt
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 18 October 2024
-! Version: 1.26
+! Last modified: 23 October 2024
+! Version: 1.27
 ! Syntax: Adblock
 ! Number of entries: 115
 !
