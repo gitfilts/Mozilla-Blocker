@@ -1,8 +1,7 @@
 ! Title: Mozilla Blocker Adblock
 ! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
-!              Mozilla accounts are blocked, mozilla download cdn and archive is blocked. Firefox forked browser's auto update attempts will be blocked.
+!              Mozilla accounts are blocked, mozilla download cdn and archive is blocked.
 !              Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
-!              Use a package manager or download manualy to update firefox forked browsers instead of using the autoupdate feature inside the browser itself.
 !              Only addons urls are not blocked so that extensions can be installed from Firefox Add-ons.
 !              Use with a systemwide Adblocker like Zen Privacy Guard for windows/linux and Adguard for windows/android(as DNS filter) or with a DNS Sinkhole like Adguard Home and Pi-hole.  
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
@@ -11,7 +10,7 @@
 !              This is due to Mozilla's policy forced onto extension developers. Which should tell you Mozilla's privacy stance as an organization.
 !              Mitigations: Among Firefox forks, only unique forks like Palemoon and Basilisk can detect and block google trackers on mozilla websites. So can the rest of the browsers in existence with an adblocker which is not a modern firefox fork.
 !              Zen system wide Blocker(https://github.com/anfragment/zen) can detect and block google trackers when you visit mozilla website and your browser updates add-ons on the backgruond.
-!              Adguard for windows can't detect http google trackers and scripts on mozilla sites but can block the DNS requests which should be enough. 
+!              Adguard for windows doesn't detect http google trackers and scripts on mozilla sites but can block the DNS requests which should be enough. 
 !
 ! Host version of Mozilla Blocker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerHost.txt
 !
@@ -20,7 +19,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 23 October 2024
-! Version: 1.27
+! Version: 1.28
 ! Syntax: Adblock
 ! Number of entries: 115
 !
@@ -158,12 +157,12 @@
 ||fakespot.com^
 ||fakespot.io^
 !
-!!!!!! Tracker and auto update blocking from other firefox forked browsers
+!!!!!! home calls and auto update urls of firefox forked Browsers
 !! Basilisk Browser
 ||aus.basilisk-browser.org^
 !
 !! Floorp Browser
-||floorp-update.ablaze.one^
+!Not Blocked!||floorp-update.ablaze.one^
 !
 !! Zen Browser
 !Not Blocked!||updates.zen-browser.app^
