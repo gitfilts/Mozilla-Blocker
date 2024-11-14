@@ -1,0 +1,197 @@
+! Title: Mozilla Blocker - Adblock & DNS Blocklist
+! Description: This blocklist aims to block almost all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+!              Mozilla account is blocked. Mozilla download cdn and archive is also blocked.
+!              Just avoid official firefox altogether and use other forks like Librewolf, Floorp, Zen Browser etc.
+!              Only addons urls are not blocked so that extensions can be installed from Mozilla Add-ons.
+!              Use with a network/systemwide blocker. Adguard Home and Pi-hole for DNS blocking and Zen Privacy Guard from github in windows/linux.
+!              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
+!
+!              A Mozilla Trivia: Not Even Ublock Origin is allowed to detect and filter google trackers mozilla uses on their website - Mozilla add-ons.
+!              Yes, Most of the Mozilla websites including the add-ons site have Google analytivcs like google-analytics.com and googletagmanager.com. You can check with any non-mozilla browsers, wireshark or dns filterer.  
+!              This is due to Mozilla's policy forced onto extension developers, which should tell you Mozilla's privacy stance as an organization.
+!
+! Host version - 
+!
+! Homepage: 
+! Source: 
+! License:
+! Expires: 1 day
+! Last modified: 14 November 2024
+! Version: 3.04
+! Syntax: Adblock
+! Number of entries:
+!
+!
+!!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
+!
+!!! External Trackers Mozilla uses on their own sites...
+||google-analytics.com^
+||googletagmanager.com^
+||omappapi.com^
+||braze.com^
+||sentry.io^
+||matomo.cloud^
+||pubmine.com^
+!Not Blocked!||cookielaw.org^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||typekit.net^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||fundraiseup.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||google.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!Not Blocked!||stripe.com^$domain=mozilla.com|mozilla.org|mozilla.net|mozilla.ai|mozilla.vc|firefox.com|getpocket.com|thunderbird.net|fakespot.com|fakespot.io|anonymco.com
+!
+!!!!!! Mozilla Products,Brands and Services Direct Urls !!!!!!
+!
+!! Mozilla's Major brands and services
+||firefox.com*^
+||mozilla.com*^
+||mozilla.net*^
+||mozilla.org*^
+||getpocket.com^
+||pocket.com^
+||mozilla.ai^
+||mozilla.vc^
+||thunderbird.net*^
+||anonymco.com^
+||fakespot.com^
+||fakespot.io^
+!
+!! Mozilla's Sub brands and services urls
+||foundation.mozilla.org^
+||mozilla.design^
+||monitor.mozilla.org^
+||relay.firefox.com^
+||vpn.mozilla.org^
+!
+!! Mozilla Inovation projects
+||didthis.app^
+||formulaic.app^
+||soloist.ai^
+||orcaready.org^
+||subconscious.network^
+!
+!!! Mozilla Accounts
+||accounts.firefox.com^
+||accounts-static.cdn.mozilla.net^
+!
+!!! Mozilla Addons is allowed
+@@||addons.mozilla.org^
+@@||addons.thunderbird.net^
+||services.addons.mozilla.org^$important
+||services.addons.thunderbird.net^$important
+!
+!!! Mozilla download and tracking script containing servers/cdn
+||cdn.mozilla.net^
+||archive.mozilla.org^
+!
+!!! Betterbird/Thunderbird urls which will cause automatic config not to work
+||live.thunderbird.net^
+||autoconfig.thunderbird.net^
+!
+!!! Mozilla Support and blogs
+||support.mozilla.org^
+!
+!!! Third party dns used in other apps
+||mozilla.cloudflare-dns.com^
+!
+!!!!!! All Other domains, subdomains related to Mozilla
+||ai-guide.future.mozilla.org^
+||api.pocket.com^
+||assets.mozilla.net^
+||assets.getpocket.com^
+||aus5.mozilla.org^
+||aus*.mozilla.org^
+||blog.mozilla.org^
+||bugzilla.mozilla.org^
+||careers.mozilla.org^
+||contile.services.mozilla.com^
+||contile-images.services.mozilla.com^
+||classify-client.services.mozilla.com^
+||commonvoice.mozilla.org^
+||content-signature-2.cdn.mozilla.net^
+||content-signature*.cdn.mozilla.net^
+||contile-images.services.mozilla.com^
+||crash-reports.mozilla.com^
+||crash-reports-xpsp2.mozilla.com^
+||crash-stats.allizom.org^
+||crash-stacks.mozilla.com^
+||crash-stats.mozilla.com^
+||crash-stats.mozilla.org^
+||data.mozilla.com^
+||dataops.mozgcp.net^
+||detectportal.firefox.com^
+||developer.mozilla.org^
+||download.mozilla.org^
+||download-stats.mozilla.org^
+||firefox-android-home-recommendations.getpocket.com^
+||firefox-settings-attachments.cdn.mozilla.net^
+||firefox-source-docs.mozilla.org^
+||fls.merino.services.mozilla.com^
+||foundation.mozilla.org.cdn.cloudflare.net^
+||future.mozilla.org^
+||incoming.telemetry.mozilla.org^
+||live.mozillamessaging.com^
+||location.services.mozilla.com^
+||merino.services.mozilla.com^
+||metric.mozilla-pontoon-staging.herokuapp.com^
+||moz.works^
+||mozamo.wpengine.com^
+||mozaws.net^
+||mozgcp.net^
+||mozorg.moz.works^
+||mozorg.cdn.mozilla.net^
+||mozilla.ai^
+||mozilla.auth0.com^
+||mozilla.dorando.at^
+||mozilla.formstack.com^
+||mozilla.org.cdn.cloudflare.net^
+||mozilla-vc-dev.ramotion.agency^
+||mozillamessaging.com^
+||mozillaupdates.com^
+||mozillamaintenanceservice.duckdns.org^
+||mozsocial.cliqz.com^
+||mware.socorro.stage.webapp.sjc1.mozilla.com^
+||normandy.cdn.mozilla.net^
+||normandy.services.mozilla.com^
+||normandy-cdn.services.mozilla.com^
+||normandy-cloudfront.cdn.mozilla.net^
+||normandy-devtools.services.mozilla.com^
+||pocket-image-cache.com^
+||pontoon.mozilla.org^
+||prod.webservices.mozgcp.net^
+||push.services.mozilla.com^
+||settings.services.mozilla.com^
+||shavar.services.mozilla.com^
+||snippets.allizom.org^
+||snippets.cdn.mozilla.net^
+||snippets.mozilla.com^
+||socorro.services.mozilla.com^
+||socorro-collector.services.mozilla.com^
+||socorro-mware-stage-zlb.webapp.phx1.mozilla.com^
+||socorro-mware-zlb.webapp.phx1.mozilla.com^
+||socorro-webapp.services.mozilla.com^
+||socorro-webapp-allizom.stage.mozaws.net^
+||spocs.getpocket.com^
+||stun.services.mozilla.com^
+||telemetry.mozilla.org^
+||telemetry-coverage.mozilla.org^
+||telemetry-coverage.r53-2.services.mozilla.com^
+||telemetry-data.r53-2.services.mozilla.com^
+||telemetry-incoming.r53-2.services.mozilla.com^
+||thunderbird-settings.thunderbird.net^
+||topsites.services.mozilla.com^
+||tracking.firefox.com.cn^
+||tracking.services.mozilla.com^
+||tracking-protection.cdn.mozilla.net^
+||tracking-protection-issues.herokuapp.com^
+||webservices.mozgcp.net^
+||wiki.mozilla.org^
+!
+!!!!!! home calls and auto update urls of firefox forked Browsers
+!! Basilisk Browser
+||aus*.basilisk-browser.org^
+!
+!! Floorp Browser
+!Not Blocked!||floorp-update.ablaze.one^
+!
+!! Zen Browser
+!Not Blocked!||updates.zen-browser.app^
+!
