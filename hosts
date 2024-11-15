@@ -5,12 +5,12 @@
 # Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
 # Many of the urls can be repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
 #
-# Homepage: 
+# Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
-# Last modified: 14 November 2024
+# Last modified: 15 November 2024
 # Number of entries:
 #
-# Adblock/DNS blocklist version -
+# Adblock/DNS blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 #
 #
 ### External trackers Mozilla uses on their own sites...
