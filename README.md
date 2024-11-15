@@ -1,17 +1,17 @@
-# Mozilla-Blocker
+# Mozilla-Blocker - The Great Filters for Blocking Mozilla Spying
 #### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 
 ## Filters which allows firefox forks to install and update add-ons from mozilla extension store -
-Adguard Home and Zen Privacy Guard -
+Adguard Home and Zen Privacy Guard - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 
-Windows/Linux host and Android Adaway - 
+Windows/Linux host and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 
 ## No Mozilla Version - Everything is blanket blocked from Mozilla, including Add-ons -
-Adguard Home and Zen privacy Guard - 
+Adguard Home and Zen privacy Guard - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 
-Windows/Linux host and Android Adaway - 
+Windows/Linux host and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 ## Recommended Methods to Block Mozilla
 1. DNS Network-wide Adblocker- Adguard Home (best-method)(foss)(dns) - https://github.com/AdguardTeam/AdGuardHome
 2. Systemwide Adblocker for Widnows/Linux- Zen Privay Guard (unstable)(foss)(adblock)- https://github.com/anfragment/zen
