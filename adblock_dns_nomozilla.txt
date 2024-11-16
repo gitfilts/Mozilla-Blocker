@@ -15,8 +15,8 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License:https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 15 November 2024
-! Version: 2.10
+! Last modified: 17 November 2024
+! Version: 2.11
 ! Syntax: Adblock
 ! Number of entries:
 !
