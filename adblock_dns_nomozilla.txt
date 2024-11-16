@@ -38,6 +38,7 @@
 !
 !! Mozilla's Major brands and services
 ||firefox.com*^
+||extensionworkshop.com^
 ||mozilla.com*^
 ||mozilla.net*^
 ||mozilla.org*^

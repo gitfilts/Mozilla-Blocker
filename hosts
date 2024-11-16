@@ -43,6 +43,7 @@
 ## Mozilla's major and sub brands and services
 0.0.0.0 firefox.com
 0.0.0.0 getpocket.com
+0.0.0.0 extensionworkshop.com
 0.0.0.0 pocket.com
 0.0.0.0 api.pocket.com
 0.0.0.0 labs.mozilla.org
@@ -60,6 +61,7 @@
 0.0.0.0 fakespot.io
 0.0.0.0 i.fakspot.io
 0.0.0.0 www.firefox.com
+0.0.0.0 www.extensionworkshop.com
 0.0.0.0 www.getpocket.com
 0.0.0.0 www.pocket.com
 0.0.0.0 www.api.pocket.com
@@ -146,6 +148,7 @@
 0.0.0.0 detectportal.firefox.com
 0.0.0.0 detectportal.prod.mozaws.net
 0.0.0.0 dictionary.telemetry.mozilla.org
+0.0.0.0 discourse.mozilla.org
 0.0.0.0 discovery.addons.mozilla.org
 0.0.0.0 docs.telemetry.mozilla.org
 0.0.0.0 download.cdn.mozilla.net

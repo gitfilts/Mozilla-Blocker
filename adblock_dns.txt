@@ -42,6 +42,7 @@
 !
 !! Mozilla's Major brands and services
 ||firefox.com*^
+||extensionworkshop.com^
 ||mozilla.com*^
 ||mozilla.net*^
 ||mozilla.org*^
@@ -119,6 +120,7 @@
 ||dataops.mozgcp.net^
 ||detectportal.firefox.com^
 ||developer.mozilla.org^
+||discourse.mozilla.org^
 ||download.mozilla.org^
 ||download-stats.mozilla.org^
 ||firefox-android-home-recommendations.getpocket.com^
