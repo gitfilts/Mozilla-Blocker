@@ -217,7 +217,8 @@
 0.0.0.0 normandy-cdn.services.mozilla.com
 0.0.0.0 normandy-cloudfront.cdn.mozilla.net
 0.0.0.0 oauth.accounts.firefox.com
-0.0.0.0 olympia.prod.mozaws.net 
+0.0.0.0 olympia.prod.mozaws.net
+0.0.0.0 paste.mozilla.org
 0.0.0.0 phish-error.mozilla.com
 0.0.0.0 phish-report.mozilla.com
 0.0.0.0 planet.mozilla.org
