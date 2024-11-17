@@ -13,14 +13,14 @@ Adguard Home and Zen privacy Guard - https://codeberg.org/privacyfilters/Mozilla
 
 Windows/Linux host and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 ## Recommended Methods to Block Mozilla
-1. DNS Network-wide Adblocker- Adguard Home (best-method)(foss)(dns) - https://github.com/AdguardTeam/AdGuardHome
+1. DNS Network-wide Adblocker- Adguard Home (stable)(foss)(dns) - https://github.com/AdguardTeam/AdGuardHome
 2. Systemwide Adblocker for Widnows/Linux- Zen Privay Guard (semi-stable)(foss)(adblock)- https://github.com/anfragment/zen
-3. SwitchHosts for Windows (semi-stable)(foss)(hosts) - https://github.com/oldj/SwitchHosts
-4. hosty for Linux (foss)(hosts) - https://github.com/astrovm/hosty
-5. personelDNSfilter for Android (no-root)(foss)(hosts)(dns) - https://github.com/IngoZenz/personaldnsfilter
-6. Netguard firewall for Android (no-root)(foss)(hosts) - https://github.com/M66B/NetGuard
-7. Adaway for Android (root)(foss)(hosts) - https://github.com/AdAway/AdAway
-8. Adguard for Android as Dns protection (no-root)(non-foss)(paid-app)(dns) - https://adguard.com/en/adguard-android/overview.html
+3. SwitchHosts for Windows (unstable)(foss)(hosts) - https://github.com/oldj/SwitchHosts
+4. hosty for Linux (stable)(foss)(hosts) - https://github.com/astrovm/hosty
+5. personelDNSfilter for Android (stable)(no-root)(foss)(hosts)(dns) - https://github.com/IngoZenz/personaldnsfilter
+6. Netguard firewall for Android (stable)(no-root)(foss)(hosts) - https://github.com/M66B/NetGuard
+7. Adaway for Android (root)(stable)(foss)(hosts) - https://github.com/AdAway/AdAway
+8. Adguard for Android as Dns protection (no-root)(stable)(non-foss)(paid-app)(dns) - https://adguard.com/en/adguard-android/overview.html
 
 The adblock filter format works perfectly on Adguard Home.
 Zen privacy guard is still early on development so it is unstable when enforcing the filters.
