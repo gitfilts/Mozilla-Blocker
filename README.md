@@ -14,8 +14,8 @@ Adguard Home and Zen privacy Guard - https://codeberg.org/privacyfilters/Mozilla
 Windows/Linux host and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 ## Recommended Methods to Block Mozilla
 1. DNS Network-wide Adblocker- Adguard Home (best-method)(foss)(dns) - https://github.com/AdguardTeam/AdGuardHome
-2. Systemwide Adblocker for Widnows/Linux- Zen Privay Guard (unstable)(foss)(adblock)- https://github.com/anfragment/zen
-3. SwitchHosts for Windows (unstable)(foss)(hosts) - https://github.com/oldj/SwitchHosts
+2. Systemwide Adblocker for Widnows/Linux- Zen Privay Guard (semi-stable)(foss)(adblock)- https://github.com/anfragment/zen
+3. SwitchHosts for Windows (semi-stable)(foss)(hosts) - https://github.com/oldj/SwitchHosts
 4. hosty for Linux (foss)(hosts) - https://github.com/astrovm/hosty
 5. personelDNSfilter for Android (no-root)(foss)(hosts)(dns) - https://github.com/IngoZenz/personaldnsfilter
 6. Netguard firewall for Android (no-root)(foss)(hosts) - https://github.com/M66B/NetGuard
