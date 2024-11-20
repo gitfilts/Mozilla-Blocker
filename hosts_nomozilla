@@ -164,6 +164,7 @@
 0.0.0.0 en-us.malware-error.mozilla.com
 0.0.0.0 en-us.phish-error.mozilla.com
 0.0.0.0 en-us.phish-report.mozilla.com
+0.0.0.0 extensions.allizom.org
 0.0.0.0 fenix.mozilla.org
 0.0.0.0 fhr.data.mozilla.com
 0.0.0.0 firefoxflicks.com
