@@ -236,6 +236,7 @@
 0.0.0.0 prod.remote-settings.prod.webservices.mozgcp.net
 0.0.0.0 prod.webservices.mozgcp.net
 0.0.0.0 profile.accounts.firefox.com
+0.0.0.0 profile.stage.mozaws.net
 0.0.0.0 public-data.telemetry.mozilla.org
 0.0.0.0 push.services.mozilla.com
 0.0.0.0 qsurvey.mozilla.com
