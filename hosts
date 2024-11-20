@@ -7,7 +7,7 @@
 #
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
-# Last modified: 20 November 2024
+# Last modified: 21 November 2024
 # Number of entries:
 #
 # Adblock/DNS blocklist version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
@@ -128,6 +128,7 @@
 0.0.0.0 cdn.mozilla.org
 0.0.0.0 classify-client.services.mozilla.com
 0.0.0.0 code.cdn.mozilla.net
+0.0.0.0 color.firefox.com
 0.0.0.0 commonvoice.mozilla.org
 0.0.0.0 components.fenix.mozilla.org
 0.0.0.0 content-signature-2.cdn.mozilla.net
@@ -168,10 +169,12 @@
 0.0.0.0 fhr.data.mozilla.com
 0.0.0.0 firefoxflicks.com
 0.0.0.0 firefox.settings.services.mozilla.com
+0.0.0.0 firefox-api-proxy.cdn.mozilla.net
 0.0.0.0 firefox-settings-attachments.cdn.mozilla.net
 0.0.0.0 firefox-source-docs.mozilla.org
 0.0.0.0 firefox-android-home-recommendations.getpocket.com
 0.0.0.0 foundation.mozilla.org.cdn.cloudflare.net
+0.0.0.0 fpn.firefox.com
 0.0.0.0 future.mozilla.org
 0.0.0.0 gecko.mozilla.org
 0.0.0.0 getpocket.cdn.mozilla.net
@@ -291,6 +294,7 @@
 0.0.0.0 tracking-protection.prod.mozaws.net
 0.0.0.0 videos-cdn.mozilla.net
 0.0.0.0 videos.mozilla.org
+0.0.0.0 webcompat.com
 0.0.0.0 webextensions.settings.services.mozilla.com
 0.0.0.0 webservices.mozgcp.net
 0.0.0.0 wiki.mozilla.org
