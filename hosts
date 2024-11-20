@@ -142,6 +142,8 @@
 0.0.0.0 crash-stats.allizom.org
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.mozilla.org
+0.0.0.0 dap.services.mozilla.com
+0.0.0.0 dap-09-3.api.divviup.org
 0.0.0.0 data.mozilla.com
 0.0.0.0 dataops.mozgcp.net
 0.0.0.0 de.malware-error.mozilla.com
