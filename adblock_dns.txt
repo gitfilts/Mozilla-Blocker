@@ -16,8 +16,8 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 20 November 2024
-! Version: 3.12
+! Last modified: 21 November 2024
+! Version: 3.13
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -96,6 +96,7 @@
 !
 !!!!!! All Other domains, subdomains related to Mozilla
 ||ai-guide.future.mozilla.org^
+||allizom.org^
 ||api.pocket.com^
 ||assets.mozilla.net^
 ||assets.getpocket.com^

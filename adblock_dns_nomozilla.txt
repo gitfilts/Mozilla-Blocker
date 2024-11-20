@@ -15,8 +15,8 @@
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 ! License:https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 17 November 2024
-! Version: 2.11
+! Last modified: 21 November 2024
+! Version: 2.12
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -66,6 +66,7 @@
 ||subconscious.network^
 !
 !!!!!! Urls not covered by the blanket url block
+||allizom.org^
 ||webservices.mozgcp.net^
 ||mozilla.cloudflare-dns.com^
 ||foundation.mozilla.org.cdn.cloudflare.net^
