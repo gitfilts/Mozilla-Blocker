@@ -6,7 +6,7 @@
 #
 # Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
 # Source: ttps://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
-# Last modified: 21 Nov 2024
+# Last modified: 22 Nov 2024
 # Number of entries:
 #
 # Adblock/DNS Blocklist Version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
@@ -205,6 +205,7 @@
 0.0.0.0 mdn.mozillademos.org
 0.0.0.0 metrics.components.fenix.mozilla.org
 0.0.0.0 metric.mozilla-pontoon-staging.herokuapp.com
+0.0.0.0 mitmdetection.services.mozilla.com
 0.0.0.0 mozamo.wpengine.com
 0.0.0.0 mozaws.net
 0.0.0.0 mozgcp.net
