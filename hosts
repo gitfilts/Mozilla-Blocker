@@ -191,6 +191,7 @@
 0.0.0.0 gleanMetrics.fenix.mozilla.org
 0.0.0.0 gud.telemetry.mozilla.org
 0.0.0.0 hello.firefox.com
+0.0.0.0 ideas.mozilla.org
 0.0.0.0 img-getpocket.cdn.mozilla.net
 0.0.0.0 incoming.telemetry.mozilla.org
 0.0.0.0 incoming-telemetry.thunderbird.net
@@ -207,6 +208,7 @@
 0.0.0.0 metrics.components.fenix.mozilla.org
 0.0.0.0 metric.mozilla-pontoon-staging.herokuapp.com
 0.0.0.0 mitmdetection.services.mozilla.com
+0.0.0.0 model-hub.mozilla.org
 0.0.0.0 mozamo.wpengine.com
 0.0.0.0 mozaws.net
 0.0.0.0 mozgcp.net
@@ -243,6 +245,7 @@
 0.0.0.0 prod.webservices.mozgcp.net
 0.0.0.0 profile.accounts.firefox.com
 0.0.0.0 profile.stage.mozaws.net
+0.0.0.0 profiler.firefox.com
 0.0.0.0 public-data.telemetry.mozilla.org
 0.0.0.0 push.services.mozilla.com
 0.0.0.0 qsurvey.mozilla.com
