@@ -17,7 +17,7 @@
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 26 November 2024
-! Version: 3.14
+! Version: 3.15
 ! Syntax: Adblock
 ! Number of entries:
 !
@@ -148,6 +148,7 @@
 ||mozilla.dorando.at^
 ||mozilla.formstack.com^
 ||mozilla.org.cdn.cloudflare.net^
+||mozilla-ohttp.fastly-edge.com^
 ||mozilla-vc-dev.ramotion.agency^
 ||mozillamessaging.com^
 ||mozillaupdates.com^
