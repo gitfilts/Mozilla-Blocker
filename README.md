@@ -6,16 +6,16 @@
 ## Filters which allows firefox forks to install and update add-ons from mozilla extension store -
 Adguard Home and Zen Adblocker - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
 
-Windows/Linux host and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
+Windows/Linux host, Opensnitch and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
 
-Domains/Subdomains version for Opensnitch, pfBlockerNG - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains
+Domains/Subdomains version for pfBlockerNG - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains
 
 ## No Mozilla Version - Everything is blanket blocked from Mozilla, including Add-ons -
 Adguard Home and Zen Adblocker - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
 
-Windows/Linux host and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
+Windows/Linux host, Opensnitch and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
 
-Domains/Subdomains version for Opensnitch, pfBlockerNG - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla
+Domains/Subdomains version for pfBlockerNG - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla
 
 ## Recommended Methods to Block Mozilla
 1. DNS Network-wide Adblocker- Adguard Home (stable)(foss)(dns) - https://github.com/AdguardTeam/AdGuardHome
