@@ -1,23 +1,17 @@
 # Mozilla-Blocker - The Great Filters to Block All Mozilla Spying
-#### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
-
-# Github version - https://github.com/privacyfilters/Mozilla-Blocker
+#### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users. Available on [Github](https://github.com/privacyfilters/Mozilla-Blocker) and [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker).
 
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 
-## Filters which allows firefox forks to install and update add-ons from mozilla extension store -
-Adguard Home and Zen Adblocker - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
+## Filters which allows firefox forks to install and update add-ons from mozilla extension store
+Adguard Home and Zen Adblocker - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt)
 
-Windows/Linux host, Opensnitch and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
+Windows/Linux host, Opensnitch and Android Adaway - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts)
 
-Domains/Subdomains version for pfBlockerNG - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains
+## No Mozilla Version - Everything is blanket blocked from Mozilla, including Add-ons
+Adguard Home and Zen Adblocker - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns_nomozilla.txt) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt)
 
-## No Mozilla Version - Everything is blanket blocked from Mozilla, including Add-ons -
-Adguard Home and Zen Adblocker - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns_nomozilla.txt
-
-Windows/Linux host, Opensnitch and Android Adaway - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla
-
-Domains/Subdomains version for pfBlockerNG - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/domains_nomozilla
+Windows/Linux host, Opensnitch and Android Adaway - [Github](https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts_nomozilla) - [Codeberg](https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts_nomozilla)
 
 ## Recommended Methods to Block Mozilla
 1. DNS Network-wide Adblocker- Adguard Home (stable)(foss)(dns) - https://github.com/AdguardTeam/AdGuardHome
@@ -33,6 +27,9 @@ The adblock filter format works perfectly on Adguard Home.
 Zen privacy guard is still early on development so it is unstable when enforcing the filters.
 Host rules will work with anything just as a host file for any platform and with blockers that supports host format.
 I don't know if the adblock_dns formate of rules will work correctly on pi-hole as I only used Adguard Home and they works fine there. 
+
+## Alternative Sources of Mozilla Blocker
+## Codeberg Version - https://codeberg.org/privacyfilters/Mozilla-Blocker <br>Github Version - https://github.com/privacyfilters/Mozilla-Blocker
 
 ## Mozilla also uses Google trackers on their sites which they don't allow adblockers to detect and report to the user
 UBlock Origin and uMatrix/nuMatrix can't detect and block google tracking scripts from google-analytics.com and googletagmanager.com on the mozilla site - "Mozilla-Addons", on firefox and modern firefox forks due to policy forced onto extension makers by Mozilla, probably with the excuse of security. Adguard for windows and android also doesn't detect https google tracking request and scripts on mozilla websites like Mozilla Add-ons while using any broswers, even on chrome.
