@@ -1,6 +1,8 @@
 # Mozilla-Blocker - The Great Filters to Block All Mozilla Spying
 #### The Great Blocklists to prevent all Mozilla spying and data collecting efforts on their users.
 
+# Github version - https://github.com/privacyfilters/Mozilla-Blocker
+
 # Useful only with Systemwide Ad-blockers, DNS Sinkholes and host blocking.
 
 ## Filters which allows firefox forks to install and update add-ons from mozilla extension store -

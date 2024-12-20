@@ -11,13 +11,16 @@
 !              This is due to Mozilla's policy forced onto extension developers, which should tell you Mozilla's privacy stance as an organization.
 !
 ! Host version - https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/hosts
+! Github host version - https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/hosts
 !
 ! Homepage: https://codeberg.org/privacyfilters/Mozilla-Blocker
+! Github page: https://github.com/privacyfilters/Mozilla-Blocker
 ! Source: https://codeberg.org/privacyfilters/Mozilla-Blocker/raw/branch/main/adblock_dns.txt
+! Github source: https://raw.githubusercontent.com/privacyfilters/Mozilla-Blocker/refs/heads/main/adblock_dns.txt
 ! License: https://codeberg.org/privacyfilters/Mozilla-Blocker/src/branch/main/LICENSE
 ! Expires: 1 day
-! Last modified: 26 November 2024
-! Version: 3.15
+! Last modified: 20 December 2024
+! Version: 3.16
 ! Syntax: Adblock
 ! Number of entries:
 !
